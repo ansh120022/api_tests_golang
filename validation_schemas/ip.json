@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IP adresss",
+  "description": "Schema for the response of the GET /ip endpoint. It provides an IP of the client",
+  "type": "object",
+  "properties": {
+    "origin": {
+      "type": "string",
+      "format": "ip-address",
+      "message": {
+        "format": "Field is required."
+      },
+      "description": "IP address of a client"
+    }
+  },
+  "required": [
+    "origin"
+  ],
+  "additionalProperties": false
+}

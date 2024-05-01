@@ -1,1 +1,5 @@
-# api_tests_golang
+###
+Given that Golang installed
+
+    go test
+
